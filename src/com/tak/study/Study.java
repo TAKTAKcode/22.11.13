@@ -38,12 +38,22 @@ public class Study {
                         , "바다"
                         , "블랙팬서"
                         , "전등"              //30개
+                        , "복싱"
+                        , "글러브"
+                        , "복싱화"
+                        , "모나미"
+                        , "무지개"
+                        , "경매"
+                        , "인생"
+                        , "공자"
+                        , "논어"
+                        , "영풍문고"          //40개
                         };
 
 
         for (int i = 0; i < 2; i++) {
 
-            int ranNum = (int)((Math.random()*10000)%30);    //랜덤한 수를 생성
+            int ranNum = (int)((Math.random()*10000)%40);    //랜덤한 수를 생성
 
             System.out.println(all[ranNum]);                 //랜덤의 난수를 넣어서 출력
 
