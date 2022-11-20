@@ -7,7 +7,7 @@ public class Study {
     public static void main(String[] args) {
         //단어 두개를 출력하기
         /*컴퓨터에서 단어들을 찾아 여기에 넣은 후 2개를 "동시에" 출력하기*/
-        String[] all = {
+        String[] words = {
                           "돼지"
                         , "사진"
                         , "종이"
@@ -58,14 +58,34 @@ public class Study {
                         , "딸기"
                         , "눈물"
                         , "행복"             //50개
+                        , "데시벨"
+                        , "성수동"
+                        , "영화"
+                        , "넷플릭스"
+                        , "모니터"
+                        , "책"
+                        , "눈썹"
+                        , "문신"
+                        , "목걸이"
+                        , "대저택"           //60개
+                        , "모자"
+                        , "아름다움"
+                        , "안경"
+                        , "왁시"
+                        , "눈덩이"
+                        , "체스"
+                        , "로또"
+                        , "꿈"
+                        , "포마드"
+                        , "천국"            //70개
                         };
 
 
         for (int i = 0; i < 2; i++) {
 
-            int ranNum = (int)((Math.random()*10000)%40);    //랜덤한 수를 생성
+            int ranNum = (int)((Math.random()*10000)%70);    //랜덤한 수를 생성
 
-            System.out.println(all[ranNum]);                 //랜덤의 난수를 넣어서 출력
+            System.out.println(words[ranNum]);                 //랜덤의 난수를 넣어서 출력
 
         }
     }
