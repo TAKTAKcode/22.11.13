@@ -71,7 +71,7 @@ public class Study {
                         , "모자"
                         , "아름다움"
                         , "안경"
-                        , "왁시"
+                        , "왁스"
                         , "눈덩이"
                         , "체스"
                         , "로또"
@@ -83,7 +83,7 @@ public class Study {
 
         for (int i = 0; i < 2; i++) {
 
-            int ranNum = (int)((Math.random()*10000)%70);    //랜덤한 수를 생성
+            int ranNum = (int)((Math.random()*10000)%70);      //랜덤한 수를 생성
 
             System.out.println(words[ranNum]);                 //랜덤의 난수를 넣어서 출력
 
