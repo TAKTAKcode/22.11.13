@@ -88,12 +88,22 @@ public class Study {
                         , "지름길"
                         , "독서"
                         , "편지"            //80개
+                        , "퇴근"
+                        , "출근"
+                        , "제자리"
+                        , "의자"
+                        , "책갈피"
+                        , "월드컵"
+                        , "호탕"
+                        , "탕후루"
+                        , "수능"
+                        , "겨울"            //90개
                         };
 
 
         for (int i = 0; i < 2; i++) {
 
-            int ranNum = (int)((Math.random()*10000)%70);      //랜덤한 수를 생성
+            int ranNum = (int)((Math.random()*10000)%90);      //랜덤한 수를 생성
 
             System.out.println(words[ranNum]);                 //랜덤의 난수를 넣어서 출력
 
