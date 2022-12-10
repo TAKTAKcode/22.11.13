@@ -98,12 +98,22 @@ public class Study {
                         , "탕후루"
                         , "수능"
                         , "겨울"            //90개
+                        , "장어"
+                        , "첫눈"
+                        , "고급"
+                        , "콩"
+                        , "용산"
+                        , "파주"
+                        , "서울"
+                        , "한국"
+                        , "종이의집"
+                        , "탕수육"            //100개
                         };
 
 
         for (int i = 0; i < 2; i++) {
 
-            int ranNum = (int)((Math.random()*10000)%90);      //랜덤한 수를 생성
+            int ranNum = (int)((Math.random()*10000)%100);      //랜덤한 수를 생성
 
             System.out.println(words[ranNum]);                 //랜덤의 난수를 넣어서 출력
 
