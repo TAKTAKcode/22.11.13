@@ -108,12 +108,22 @@ public class Study {
                         , "한국"
                         , "종이의집"
                         , "탕수육"            //100개
+                        , "맥도날드"
+                        , "배달"
+                        , "인천"
+                        , "급행"
+                        , "노량진"
+                        , "계단"
+                        , "코트"
+                        , "폭설"
+                        , "강추위"
+                        , "목도리"            //110개
                         };
 
 
         for (int i = 0; i < 2; i++) {
 
-            int ranNum = (int)((Math.random()*10000)%100);      //랜덤한 수를 생성
+            int ranNum = (int)((Math.random()*10000)%110);      //랜덤한 수를 생성
 
             System.out.println(words[ranNum]);                 //랜덤의 난수를 넣어서 출력
 
