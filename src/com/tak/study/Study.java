@@ -118,12 +118,22 @@ public class Study {
                         , "폭설"
                         , "강추위"
                         , "목도리"            //110개
+                        , "괴물"
+                        , "제주도"
+                        , "청바지"
+                        , "아바타"
+                        , "알바"
+                        , "주말"
+                        , "인텔리제이"
+                        , "자바"
+                        , "목적"
+                        , "목표"              //120개
                         };
 
 
         for (int i = 0; i < 2; i++) {
 
-            int ranNum = (int)((Math.random()*10000)%110);      //랜덤한 수를 생성
+            int ranNum = (int)((Math.random()*10000)%120);      //랜덤한 수를 생성
 
             System.out.println(words[ranNum]);                 //랜덤의 난수를 넣어서 출력
 
