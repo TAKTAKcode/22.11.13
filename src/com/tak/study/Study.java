@@ -128,12 +128,22 @@ public class Study {
                         , "자바"
                         , "목적"
                         , "목표"              //120개
+                        , "목소리"
+                        , "연금술"
+                        , "황금"
+                        , "파도"
+                        , "천리길"
+                        , "상속"
+                        , "비법"
+                        , "비빔면"
+                        , "유니클로"
+                        , "철학"              //130개
                         };
 
 
         for (int i = 0; i < 2; i++) {
 
-            int ranNum = (int)((Math.random()*10000)%120);      //랜덤한 수를 생성
+            int ranNum = (int)((Math.random()*10000)%130);      //랜덤한 수를 생성
 
             System.out.println(words[ranNum]);                 //랜덤의 난수를 넣어서 출력
 
