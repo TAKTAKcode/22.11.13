@@ -138,12 +138,22 @@ public class Study {
                         , "비빔면"
                         , "유니클로"
                         , "철학"              //130개
+                        , "블루종"
+                        , "빵"
+                        , "불로 소득"
+                        , "근로 소득"
+                        , "주식"
+                        , "사업"
+                        , "비트코인"
+                        , "송곳니"
+                        , "트리마제"
+                        , "부자"              //140개
                         };
 
 
         for (int i = 0; i < 2; i++) {
 
-            int ranNum = (int)((Math.random()*10000)%130);      //랜덤한 수를 생성
+            int ranNum = (int)((Math.random()*10000)%140);      //랜덤한 수를 생성
 
             System.out.println(words[ranNum]);                 //랜덤의 난수를 넣어서 출력
 
