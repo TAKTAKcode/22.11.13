@@ -148,15 +148,27 @@ public class Study {
                         , "송곳니"
                         , "트리마제"
                         , "부자"              //140개
+                        , "벼락"
+                        , "진리"
+                        , "불교"
+                        , "불고기"
+                        , "스프링"
+                        , "자바스크립트"
+                        , "언어"
+                        , "영어"
+                        , "붕어빵"
+                        , "슈크림"             //150개
                         };
 
 
         for (int i = 0; i < 2; i++) {
 
-            int ranNum = (int)((Math.random()*10000)%140);      //랜덤한 수를 생성
+            int ranNum = (int)((Math.random()*10000) % 150);      //랜덤한 수를 생성
 
             System.out.println(words[ranNum]);                 //랜덤의 난수를 넣어서 출력
 
         }
+
     }
+
 }
